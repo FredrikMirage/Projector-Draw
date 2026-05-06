@@ -1,0 +1,3 @@
+C:\Users\fredr\Documents\Unity Projects\Projector-Draw\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\fredr\Documents\Unity Projects\Projector-Draw\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+C:\Users\fredr\Documents\Unity Projects\Projector-Draw\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
