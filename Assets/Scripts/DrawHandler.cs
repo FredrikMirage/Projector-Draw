@@ -6,7 +6,7 @@ using System.Collections;
 public class DrawHandler : MonoBehaviour
 {
     public RawImage drawingArea;
-    public string pcIpAddress = "192.168.1.XX"; 
+    public string pcIpAddress = ""; 
 
     private Texture2D texture;
     private Color32[] blankPixels; // För snabb rensning
@@ -16,6 +16,8 @@ public class DrawHandler : MonoBehaviour
 
     void Start()
     {
+        pcIpAddress = PlayerPrefs.GetString("PC_IP", "127.0.0.1");
+
         // Skapa texturen (1024x1024 är en bra balans mellan kvalitet och prestanda)
         texture = new Texture2D(1024, 1024, TextureFormat.RGBA32, false);
         drawingArea.texture = texture;
