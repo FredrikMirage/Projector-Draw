@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c3bb3fef8f1f04ebaa08914683603a9b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Utilities/ColorConversionUtility.cs
+  uploadId: 849938

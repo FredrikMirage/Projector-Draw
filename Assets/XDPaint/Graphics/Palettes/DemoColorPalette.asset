@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb48a8a9c3f404971a907d60166d5313, type: 3}
+  m_Name: DemoColorPalette
+  m_EditorClassIdentifier: 
+  paletteName: Default
+  paletteType: 7
+  baseColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+  - {r: 0.7411765, g: 0.7411765, b: 0.7411765, a: 1}
+  - {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+  - {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.8039216, b: 0.8235294, a: 1}
+  - {r: 0.9372549, g: 0.6039216, b: 0.6039216, a: 1}
+  - {r: 0.8980392, g: 0.4509804, b: 0.4509804, a: 1}
+  - {r: 0.9372549, g: 0.3254902, b: 0.3137255, a: 1}
+  - {r: 0.95686275, g: 0.2627451, b: 0.21176471, a: 1}
+  - {r: 0.7764706, g: 0.15686275, b: 0.15686275, a: 1}
+  - {r: 1, g: 0.8784314, b: 0.69803923, a: 1}
+  - {r: 1, g: 0.8, b: 0.5019608, a: 1}
+  - {r: 1, g: 0.7176471, b: 0.3019608, a: 1}
+  - {r: 1, g: 0.654902, b: 0.14901961, a: 1}
+  - {r: 1, g: 0.59607846, b: 0, a: 1}
+  - {r: 0.9607843, g: 0.4862745, b: 0, a: 1}
+  - {r: 0.78431374, g: 0.9019608, b: 0.7882353, a: 1}
+  - {r: 0.64705884, g: 0.8392157, b: 0.654902, a: 1}
+  - {r: 0.5058824, g: 0.78039217, b: 0.5176471, a: 1}
+  - {r: 0.4, g: 0.73333335, b: 0.41568628, a: 1}
+  - {r: 0.29803923, g: 0.6862745, b: 0.3137255, a: 1}
+  - {r: 0.21960784, g: 0.5568628, b: 0.23529412, a: 1}
+  - {r: 0.73333335, g: 0.87058824, b: 0.9843137, a: 1}
+  - {r: 0.5647059, g: 0.7921569, b: 0.9764706, a: 1}
+  - {r: 0.39215687, g: 0.70980394, b: 0.9647059, a: 1}
+  - {r: 0.25882354, g: 0.64705884, b: 0.9607843, a: 1}
+  - {r: 0.12941177, g: 0.5882353, b: 0.9529412, a: 1}
+  - {r: 0.09803922, g: 0.4627451, b: 0.8235294, a: 1}
+  - {r: 0.88235295, g: 0.74509805, b: 0.90588236, a: 1}
+  - {r: 0.80784315, g: 0.5764706, b: 0.84705883, a: 1}
+  - {r: 0.7294118, g: 0.40784314, b: 0.78431374, a: 1}
+  - {r: 0.67058825, g: 0.2784314, b: 0.7372549, a: 1}
+  - {r: 0.6117647, g: 0.15294118, b: 0.6901961, a: 1}
+  - {r: 0.48235294, g: 0.12156863, b: 0.63529414, a: 1}
+  generatedColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+  - {r: 0.7411765, g: 0.7411765, b: 0.7411765, a: 1}
+  - {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+  - {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.8039216, b: 0.8235294, a: 1}
+  - {r: 0.9372549, g: 0.6039216, b: 0.6039216, a: 1}
+  - {r: 0.8980392, g: 0.4509804, b: 0.4509804, a: 1}
+  - {r: 0.9372549, g: 0.3254902, b: 0.3137255, a: 1}
+  - {r: 0.95686275, g: 0.2627451, b: 0.21176471, a: 1}
+  - {r: 0.7764706, g: 0.15686275, b: 0.15686275, a: 1}
+  - {r: 1, g: 0.8784314, b: 0.69803923, a: 1}
+  - {r: 1, g: 0.8, b: 0.5019608, a: 1}
+  - {r: 1, g: 0.7176471, b: 0.3019608, a: 1}
+  - {r: 1, g: 0.654902, b: 0.14901961, a: 1}
+  - {r: 1, g: 0.59607846, b: 0, a: 1}
+  - {r: 0.9607843, g: 0.4862745, b: 0, a: 1}
+  - {r: 0.78431374, g: 0.9019608, b: 0.7882353, a: 1}
+  - {r: 0.64705884, g: 0.8392157, b: 0.654902, a: 1}
+  - {r: 0.5058824, g: 0.78039217, b: 0.5176471, a: 1}
+  - {r: 0.4, g: 0.73333335, b: 0.41568628, a: 1}
+  - {r: 0.29803923, g: 0.6862745, b: 0.3137255, a: 1}
+  - {r: 0.21960784, g: 0.5568628, b: 0.23529412, a: 1}
+  - {r: 0.73333335, g: 0.87058824, b: 0.9843137, a: 1}
+  - {r: 0.5647059, g: 0.7921569, b: 0.9764706, a: 1}
+  - {r: 0.39215687, g: 0.70980394, b: 0.9647059, a: 1}
+  - {r: 0.25882354, g: 0.64705884, b: 0.9607843, a: 1}
+  - {r: 0.12941177, g: 0.5882353, b: 0.9529412, a: 1}
+  - {r: 0.09803922, g: 0.4627451, b: 0.8235294, a: 1}
+  - {r: 0.88235295, g: 0.74509805, b: 0.90588236, a: 1}
+  - {r: 0.80784315, g: 0.5764706, b: 0.84705883, a: 1}
+  - {r: 0.7294118, g: 0.40784314, b: 0.78431374, a: 1}
+  - {r: 0.67058825, g: 0.2784314, b: 0.7372549, a: 1}
+  - {r: 0.6117647, g: 0.15294118, b: 0.6901961, a: 1}
+  - {r: 0.48235294, g: 0.12156863, b: 0.63529414, a: 1}
+  handleOverrides:
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  - Saturation: 1
+    Value: 1
+    OverrideSaturation: 0
+    OverrideValue: 0
+  settings:
+    ColorCount: 40
+    SaturationVariation: 0.704
+    LightnessVariation: 0.668
+    HueShift: 106
+    Layout: 2
+    SmoothTransitions: 0
+    AutoSize: 0
+    TextureWidth: 6
+    TextureHeight: 6
+    RotationAngle: 0

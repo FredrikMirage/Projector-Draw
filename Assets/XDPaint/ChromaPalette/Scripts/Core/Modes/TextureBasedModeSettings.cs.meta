@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4c9f815689cf494c967a40dd6c1d2181
+timeCreated: 1756240620
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Core/Modes/TextureBasedModeSettings.cs
+  uploadId: 849938

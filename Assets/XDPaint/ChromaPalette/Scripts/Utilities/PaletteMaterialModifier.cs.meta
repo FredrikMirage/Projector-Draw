@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f393326effd0f4ac5a4d6a16a116945d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Utilities/PaletteMaterialModifier.cs
+  uploadId: 849938

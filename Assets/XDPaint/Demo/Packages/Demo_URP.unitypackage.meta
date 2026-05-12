@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0aa643b5cebc644c28109114ad38af17
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/Demo/Packages/Demo_URP.unitypackage
+  uploadId: 849938

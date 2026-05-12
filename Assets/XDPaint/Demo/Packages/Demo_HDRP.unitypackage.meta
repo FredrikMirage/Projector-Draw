@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bb88f784b1f46413489a8724086e0863
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/Demo/Packages/Demo_HDRP.unitypackage
+  uploadId: 849938

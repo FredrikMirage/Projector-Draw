@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed56993c140a24344bc9d9e220a89562
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Prefabs/ColorPickerThemed.prefab
+  uploadId: 849938

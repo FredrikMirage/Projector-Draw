@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 136160c11741c4b9a81b75a5695d8f57
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Internal/Rendering/TextureSampler.cs
+  uploadId: 849938

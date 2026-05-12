@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: eeabe71d8add44272a0d179c4eaa747c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Utilities/PaletteTextureGenerator.cs
+  uploadId: 849938

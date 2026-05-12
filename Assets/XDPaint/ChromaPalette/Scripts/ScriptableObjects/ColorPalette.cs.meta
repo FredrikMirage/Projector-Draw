@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cb48a8a9c3f404971a907d60166d5313
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/ScriptableObjects/ColorPalette.cs
+  uploadId: 849938

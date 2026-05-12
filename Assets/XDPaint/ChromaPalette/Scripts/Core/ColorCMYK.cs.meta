@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 41c8608d2c1d4942995dec1543935fab
+timeCreated: 1756240490
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Core/ColorCMYK.cs
+  uploadId: 849938

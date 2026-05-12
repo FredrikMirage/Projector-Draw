@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4aab5669a12d4c2bb7204cde4d964a0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Documentation/ChromaPalette_Documentation.html
+  uploadId: 849938

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b07115994d1f44f5bc2a2fff5108069
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/Graphics/Palettes/DemoColorPalette.asset
+  uploadId: 849938

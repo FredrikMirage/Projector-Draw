@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8871d46c84f2b44f29167c1ed28cdca8
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Editor/XDPaint.ChromaPalette.Editor.asmdef
+  uploadId: 849938

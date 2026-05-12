@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 009126969c8d4087a7c49951f363c517
+timeCreated: 1756240472
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Core/ColorHSV.cs
+  uploadId: 849938

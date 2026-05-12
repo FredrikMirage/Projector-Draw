@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4d0b4b06ed0445fdb43fee2a05ec5e5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Demo/DemoChromaPalette.unity
+  uploadId: 849938

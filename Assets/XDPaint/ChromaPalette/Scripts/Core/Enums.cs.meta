@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d9722f2eaa8f4ba79d63258dfb2db57f
+timeCreated: 1758724259
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Core/Enums.cs
+  uploadId: 849938

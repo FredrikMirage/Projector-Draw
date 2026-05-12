@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 94df0c0a44ce4cfc97cfe10d536fb762
+timeCreated: 1756412361
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Scripts/Editor/ColorPaletteInspector.Header.cs
+  uploadId: 849938

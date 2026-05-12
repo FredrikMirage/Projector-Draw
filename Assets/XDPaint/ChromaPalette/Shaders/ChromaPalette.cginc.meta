@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 637c1242cd89544e9be674aaf51cc970
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212475
+  packageName: 2D/3D Paint
+  packageVersion: 3.3.1
+  assetPath: Assets/XDPaint/ChromaPalette/Shaders/ChromaPalette.cginc
+  uploadId: 849938
