@@ -7,48 +7,44 @@ using System;
 
 public class UDPReceiver : MonoBehaviour
 {
-    public DrawHandler drawHandler;
     public int port = 9876;
 
     private UdpClient udpClient;
     private Thread receiveThread;
-    private string lastReceivedIP = "";
+
+    // Vi behåller lockObject och den interna strängen för trådsäkerhet
+    private string _lastReceivedIP = "";
     private readonly object lockObject = new object();
 
-    void Start()
+    // Denna publika "Property" gör att SettingsManager kan läsa IP-adressen
+    public string LastReceivedIP
     {
-        // Starta tråden
-        receiveThread = new Thread(ReceiveData);
-        receiveThread.IsBackground = true;
-        receiveThread.Start();
-        Debug.Log("UDP-tråd startad på port " + port);
-    }
-
-    void Update()
-    {
-        // Flytta IP-adressen till DrawHandler i huvudtråden
-        lock (lockObject)
+        get
         {
-            if (!string.IsNullOrEmpty(lastReceivedIP))
+            lock (lockObject)
             {
-                if (drawHandler.pcIpAddress != lastReceivedIP)
-                {
-                    drawHandler.pcIpAddress = lastReceivedIP;
-                    Debug.Log("Auto-ansluten till server: " + lastReceivedIP);
-                }
+                return _lastReceivedIP;
             }
         }
     }
+
+    void Start()
+    {
+        receiveThread = new Thread(ReceiveData);
+        receiveThread.IsBackground = true;
+        receiveThread.Start();
+    }
+
+    // Update() behövs faktiskt inte längre för att "skicka vidare" data,
+    // eftersom SettingsManager nu läser direkt från LastReceivedIP i sin egen Update.
+    // Vi kan låta den vara tom eller ta bort den helt.
 
     void ReceiveData()
     {
         try
         {
-            // Genom att binda till IPAddress.Any lyssnar vi på alla nätverkskort
             udpClient = new UdpClient(port);
-            // Denna inställning hjälper Android att tillåta återanvändning av porten
             udpClient.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
-
             IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, port);
 
             while (true)
@@ -58,7 +54,7 @@ public class UDPReceiver : MonoBehaviour
 
                 lock (lockObject)
                 {
-                    lastReceivedIP = serverIP;
+                    _lastReceivedIP = serverIP;
                 }
             }
         }
@@ -68,7 +64,7 @@ public class UDPReceiver : MonoBehaviour
         }
     }
 
-    void OnDisable() // Viktigt att stänga ner ordentligt
+    void OnDisable()
     {
         if (udpClient != null) udpClient.Close();
         if (receiveThread != null && receiveThread.IsAlive) receiveThread.Abort();

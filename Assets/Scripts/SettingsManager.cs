@@ -60,17 +60,21 @@ public class SettingsManager : MonoBehaviour
         // Uppdatera bara fältet automatiskt om användaren INTE har valt manual override
         if (!isManualOverride)
         {
-            if (udpReceiver != null && !string.IsNullOrEmpty(udpReceiver.drawHandler.pcIpAddress))
+            // Vi kollar direkt på udpReceiverns egna variabel istället för via drawHandler
+            if (udpReceiver != null && !string.IsNullOrEmpty(udpReceiver.LastReceivedIP))
             {
-                if (ipInputField.text != udpReceiver.drawHandler.pcIpAddress)
+                if (ipInputField.text != udpReceiver.LastReceivedIP)
                 {
-                    ipInputField.text = udpReceiver.drawHandler.pcIpAddress;
+                    ipInputField.text = udpReceiver.LastReceivedIP;
+
+                    // Bonus: Om du vill att statusText ska uppdateras direkt när UDP hittar något
+                    statusText.text = "Automatiskt läge aktiverat.";
                 }
             }
         }
     }
 
-   
+
 
     private string GetLocalIPAddress()
     {
@@ -105,17 +109,19 @@ public class SettingsManager : MonoBehaviour
     IEnumerator PingServer()
     {
         statusText.text = "Testar anslutning...";
-        string testUrl = "http://" + ipInputField.text + ":8080/ping";
+        // Vi använder texten direkt från inmatningsfältet
+        string targetIP = ipInputField.text;
+        string testUrl = "http://" + targetIP + ":8080/ping";
 
         using (UnityWebRequest www = UnityWebRequest.Get(testUrl))
         {
-            // Sätt en kort timeout så vi inte väntar för länge
             www.timeout = 3;
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                statusText.text = "<color=green>Anslutning lyckades!\nIP adress: " + udpReceiver.drawHandler.pcIpAddress + "</color>";
+                // Här visar vi targetIP (inmatningsfältets text) som bekräftelse
+                statusText.text = "<color=green>Anslutning lyckades!\nServer: " + targetIP + "</color>";
             }
             else
             {
