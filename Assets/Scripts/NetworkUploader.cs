@@ -87,7 +87,8 @@ public class NetworkUploader : MonoBehaviour
         Camera originalCamera = drawingCanvas.worldCamera;
 
         // 2. Förbered ytan
-        RenderTexture rt = new RenderTexture(exportWidth, exportHeight, 24);
+        // När du skapar din RenderTexture, se till att den också stöder alpha
+        RenderTexture rt = new RenderTexture(exportWidth, exportHeight, 24, RenderTextureFormat.ARGB32);
         captureCamera.targetTexture = rt;
 
         // 3. Tillfälligt byte av kamera för Canvasen
@@ -98,7 +99,7 @@ public class NetworkUploader : MonoBehaviour
 
         // 5. Läs ut pixlar
         RenderTexture.active = rt;
-        Texture2D tex = new Texture2D(exportWidth, exportHeight, TextureFormat.RGB24, false);
+        Texture2D tex = new Texture2D(exportWidth, exportHeight, TextureFormat.RGBA32, false);
         tex.ReadPixels(new Rect(0, 0, exportWidth, exportHeight), 0, 0);
         tex.Apply();
 
