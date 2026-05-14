@@ -20,7 +20,7 @@ public class SettingsManager : MonoBehaviour
 
     void Start()
     {
-        statusText.text = "Automatiskt läge aktiverat.";
+        statusText.text = "Automatiskt läge aktiverat.\nKlicka här för att skriva in manuellt.";
         // Ladda sparade inställningar
         string savedIP = PlayerPrefs.GetString("PC_IP", "192.168.1.XX");
         ipInputField.text = savedIP;
@@ -50,7 +50,7 @@ public class SettingsManager : MonoBehaviour
 
         // Rensa fältet så att nästa UDP-paket kan fylla i det
         ipInputField.text = "";
-        statusText.text = "Automatiskt läge aktiverat.";
+        statusText.text = "Automatiskt läge aktiverat.\nKlicka här för att skriva in manuellt.";
         resetIpButton.SetActive(false);
     }
 
@@ -68,7 +68,7 @@ public class SettingsManager : MonoBehaviour
                     ipInputField.text = udpReceiver.LastReceivedIP;
 
                     // Bonus: Om du vill att statusText ska uppdateras direkt när UDP hittar något
-                    statusText.text = "Automatiskt läge aktiverat.";
+                    statusText.text = "Automatiskt läge aktiverat.\nKlicka här för att skriva in manuellt.";
                 }
             }
         }
