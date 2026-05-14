@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
+using TMPro;
 
 public class NetworkUploader : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class NetworkUploader : MonoBehaviour
     public GameObject drawingSurface; // Din Hexagon-Parent
 
     [Header("Output Settings")]
+    [SerializeField] TextMeshProUGUI statusText;
+    [SerializeField] GameObject canvasPrint;
     private int exportWidth = 2048;
     private int exportHeight = 2048;
 
@@ -16,6 +19,7 @@ public class NetworkUploader : MonoBehaviour
 
     void Start()
     {
+        canvasPrint.SetActive(false);
         pcIpAddress = PlayerPrefs.GetString("PC_IP", "127.0.0.1");
 
         // Vi stänger av kameran här för att spara prestanda
@@ -28,13 +32,26 @@ public class NetworkUploader : MonoBehaviour
     public void SendCurrentDesign()
     {
         StartCoroutine(CaptureAndUpload());
+        canvasPrint.SetActive(true);
     }
 
     IEnumerator CaptureAndUpload()
     {
+        // 1. Ge omedelbar feedback
+        canvasPrint.SetActive(true);
+        statusText.text = "Förbereder bild...";
+
         byte[] imageData = GetImageFromCaptureCamera();
 
-        if (imageData == null) yield break;
+        if (imageData == null)
+        {
+            statusText.text = "Kunde inte spara bilden!";
+            yield return new WaitForSeconds(3);
+            canvasPrint.SetActive(false);
+            yield break;
+        }
+
+        statusText.text = "Laddar upp...";
 
         string url = "http://" + pcIpAddress + ":8080/";
         using (UnityWebRequest www = new UnityWebRequest(url, "POST"))
@@ -47,10 +64,20 @@ public class NetworkUploader : MonoBehaviour
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
-                Debug.Log("Design skickad!");
+            {
+                statusText.text = "Design sent to printer and screen!";
+            }
             else
-                Debug.LogError("Nätverksfel: " + www.error);
+            {
+                // Visa felet tydligt för dig (så du kan fixa det på plats)
+                statusText.text = "Network error: Check Wi-Fi";
+                //Debug.LogError("Fel: " + www.error);
+            }
         }
+
+        // 4. Låt budskapet ligga kvar tillräckligt länge för att läsas
+        yield return new WaitForSeconds(4);
+        canvasPrint.SetActive(false);
     }
 
     private byte[] GetImageFromCaptureCamera()
@@ -79,6 +106,7 @@ public class NetworkUploader : MonoBehaviour
         drawingCanvas.worldCamera = originalCamera;
         captureCamera.targetTexture = null;
         RenderTexture.active = null;
+        rt.Release();
         Destroy(rt);
 
         byte[] bytes = tex.EncodeToPNG();

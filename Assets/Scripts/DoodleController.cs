@@ -17,11 +17,21 @@ public class DoodleController : MonoBehaviour
     [Header("Preview Elements")]
     public RectTransform previewCircle; // Dra in din BrushPreview (UI Image) här
     public float maxPreviewSize = 200f;  // Hur många pixlar stor cirkeln är vid slider-värde 1.0
+    public Image backgroundImage;
+    public enum EditMode { Brush, Background }
+    public EditMode currentMode = EditMode.Brush;
 
     private Image previewImage; // Intern referens för att byta färg
 
     void Start()
     {
+        /*
+        paintManager.OnInitialized += (manager) => {
+            var rt = manager.GetPaintTexture();
+            Debug.Log($"Ritytans upplösning: {rt.width}x{rt.height}");
+        };
+        */
+
         if (previewCircle != null)
         {
             previewImage = previewCircle.GetComponent<Image>();
@@ -44,13 +54,15 @@ public class DoodleController : MonoBehaviour
         redoButton.onClick.AddListener(Redo);
     }
 
+
+
     private void OnPaintInitialized(PaintManager manager)
     {
         if (StatesSettings.Instance != null)
         {
             StatesSettings.Instance.UndoRedoEnabled = true;
             StatesSettings.Instance.UndoRedoMaxActionsCount = 20;
-            Debug.Log("XDPaint: Undo-kapacitet satt till 20");
+            //Debug.Log("XDPaint: Undo-kapacitet satt till 20");
         }
 
         if (brushSizeSlider != null)
@@ -98,15 +110,26 @@ public class DoodleController : MonoBehaviour
     {
         if (paintManager != null && paintManager.Initialized)
         {
-            paintManager.Brush.SetColor(newColor);
-
-            // Uppdatera preview-färgen
-            if (previewImage != null)
+            if (currentMode == EditMode.Brush)
             {
-                previewImage.color = newColor;
-            }
+                // LÄGE: PENSEL
+                paintManager.Brush.SetColor(newColor);
 
-            Debug.Log("Färg bytt till: " + newColor);
+                // Uppdatera preview-cirkeln om du har en
+                if (previewCircle != null)
+                    previewCircle.GetComponent<Image>().color = newColor;
+
+                Debug.Log("Penselfärg ändrad.");
+            }
+            else
+            {
+                // LÄGE: BAKGRUND
+                if (backgroundImage != null)
+                {
+                    backgroundImage.color = newColor;
+                    Debug.Log("Bakgrundsfärg ändrad.");
+                }
+            }
         }
     }
 
@@ -183,5 +206,19 @@ public class DoodleController : MonoBehaviour
 
             Debug.Log("Canvas rensad med GL.Clear");
         }
+    }
+
+    // Denna metod anropas av din "Brush Toggle"
+    public void SetModeToBrush(bool isOn)
+    {
+        Debug.Log("Brush");
+        if (isOn) currentMode = EditMode.Brush;
+    }
+
+    // Denna metod anropas av din "Background Toggle"
+    public void SetModeToBackground(bool isOn)
+    {
+        Debug.Log("BG");
+        if (isOn) currentMode = EditMode.Background;
     }
 }

@@ -84,12 +84,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -247,6 +247,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Icons_RoundedButton
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 322
+        width: 226
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 17, z: 20, w: 17}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae28ca40350d81478c1b38565427b31
+      internalID: -1620201833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Selected
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 220
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35511ddc34a75a94c8d133f564bb2b64
+      internalID: -1571491698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -263,6 +307,8 @@ TextureImporter:
     nameFileIdTable:
       Icons_No: 1202984965197363600
       Icons_Round: 1161201145128540330
+      Icons_RoundedButton: -1620201833
+      Icons_Selected: -1571491698
       Icons_Trash: 5543941588292853863
       Icons_Yes: 184950751378207249
       Icons_undo: 2130535880278150251

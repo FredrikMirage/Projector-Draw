@@ -247,7 +247,7 @@ namespace XDPaint
             initialized = false;
             if (ObjectForPainting == null)
             {
-                Debug.LogError("ObjectForPainting is null!");
+               // Debug.LogError("ObjectForPainting is null!");
                 return;
             }
 
@@ -256,7 +256,7 @@ namespace XDPaint
             InitRenderComponentsHelper();
             if (componentType == ObjectComponentType.Unknown)
             {
-                Debug.LogError("Unknown component type!");
+               // Debug.LogError("Unknown component type!");
                 return;
             }
 
@@ -283,7 +283,7 @@ namespace XDPaint
 
                 if (triangles == null || triangles.Length == 0)
                 {
-                    Debug.LogError("Can't get triangles data!");
+                   // Debug.LogError("Can't get triangles data!");
                     return;
                 }
             }
@@ -578,7 +578,7 @@ namespace XDPaint
             }
             catch (Exception e)
             {
-                Debug.LogError(e.Message);
+               // Debug.LogError(e.Message);
                 return false;
             }
             
@@ -593,7 +593,7 @@ namespace XDPaint
             var jsonPath = Path.Combine(DefaultPath, string.Format(FilenameFormat, filename));
             if (!File.Exists(jsonPath))
             {
-                Debug.LogError($"Can't find file at path {jsonPath}");
+                //Debug.LogError($"Can't find file at path {jsonPath}");
                 return false;
             }
             
@@ -637,7 +637,7 @@ namespace XDPaint
             var jsonPath = Path.Combine(DefaultPath, string.Format(FilenameFormat, filename));
             if (!File.Exists(jsonPath))
             {
-                Debug.LogError($"Can't find file at path {jsonPath}");
+              //  Debug.LogError($"Can't find file at path {jsonPath}");
                 return false;
             }
             
@@ -673,7 +673,7 @@ namespace XDPaint
             }
             catch (Exception e)
             {
-                Debug.LogError(e.Message);
+             //   Debug.LogError(e.Message);
                 return false;
             }
             finally
