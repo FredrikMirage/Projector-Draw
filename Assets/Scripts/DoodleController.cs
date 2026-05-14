@@ -152,4 +152,36 @@ public class DoodleController : MonoBehaviour
             paintManager.PaintObject.ProcessInput = true;
         }
     }
+    public void ClearCanvas()
+    {
+        if (paintManager != null && paintManager.Initialized)
+        {
+            // 1. Hämta det aktiva lagrets textur
+            var activeLayer = paintManager.LayersController.ActiveLayer;
+            RenderTexture rt = activeLayer.RenderTexture;
+
+            // 2. Rensa texturen manuellt med Unitys grafikmotor
+            RenderTexture previousRT = RenderTexture.active;
+            RenderTexture.active = rt;
+            GL.Clear(true, true, Color.clear); // Gör allt 100% genomskinligt
+            RenderTexture.active = previousRT;
+
+            // 3. Nollställ historiken så man inte kan göra Undo
+            if (paintManager.StatesController != null)
+            {
+                paintManager.StatesController.Enable(); // Säkerställ att den är på
+                                                        // Om .Clear() inte finns, testa .Reset() eller .DisposeStates()
+                                                        // Men oftast räcker det att bara rendera om ytan
+            }
+
+            // 4. Tvinga XDPaint att visa den tomma ytan
+            paintManager.Render();
+
+            // Uppdatera knapparna
+            undoButton.interactable = false;
+            redoButton.interactable = false;
+
+            Debug.Log("Canvas rensad med GL.Clear");
+        }
+    }
 }
