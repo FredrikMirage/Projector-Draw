@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: b47bf90641ec1fb41954085d26194c93
+guid: b4f33460d4d69554589a45d381045df9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5546647240220809734
-    second: Hexagon_Mask_0
+      213: 483325286792400162
+    second: Alpha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,8 +76,8 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
-    crunchedCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hexagon_Mask_0
+      name: Alpha_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 90
-        width: 2019
-        height: 1867
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60a13cf0746a9fc40800000000000000
-      internalID: 5546647240220809734
+      spriteID: 22d893e99cd15b600800000000000000
+      internalID: 483325286792400162
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hexagon_Mask_0: 5546647240220809734
+      Alpha_0: 483325286792400162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

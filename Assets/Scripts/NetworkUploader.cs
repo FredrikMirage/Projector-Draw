@@ -82,14 +82,24 @@ public class NetworkUploader : MonoBehaviour
 
     private byte[] GetImageFromCaptureCamera()
     {
-        // 1. Hantera Canvas-bytet (Eftersom du kör Screen Space - Camera)
+        // 1. Referens till din Mask (Hexagonen) som vi vill fota av
+        RectTransform maskRect = drawingSurface.transform.parent.GetComponent<RectTransform>();
         Canvas drawingCanvas = drawingSurface.GetComponentInParent<Canvas>();
         Camera originalCamera = drawingCanvas.worldCamera;
 
         // 2. Förbered ytan
-        // När du skapar din RenderTexture, se till att den också stöder alpha
         RenderTexture rt = new RenderTexture(exportWidth, exportHeight, 24, RenderTextureFormat.ARGB32);
         captureCamera.targetTexture = rt;
+
+        // --- MAGIN HÄNDER HÄR ---
+        // Vi tvingar kamerans storlek att matcha hexagonens höjd i UI-enheter.
+        // Eftersom Orthographic Size är halva höjden, tar vi maskens höjd / 2.
+        captureCamera.orthographicSize = (maskRect.rect.height / 2f);
+
+        // Flytta kameran så den är precis centrerad på masken
+        captureCamera.transform.position = maskRect.position;
+        captureCamera.transform.position += new Vector3(0, 0, -10); // Backa kameran lite på Z
+                                                                    // ------------------------
 
         // 3. Tillfälligt byte av kamera för Canvasen
         drawingCanvas.worldCamera = captureCamera;
@@ -103,11 +113,11 @@ public class NetworkUploader : MonoBehaviour
         tex.ReadPixels(new Rect(0, 0, exportWidth, exportHeight), 0, 0);
         tex.Apply();
 
-        // 6. Återställ allt direkt
+        // 6. Återställ allt
         drawingCanvas.worldCamera = originalCamera;
         captureCamera.targetTexture = null;
         RenderTexture.active = null;
-        rt.Release();
+        rt.Release(); // Bra för minnet
         Destroy(rt);
 
         byte[] bytes = tex.EncodeToPNG();

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: be6f91b9847493a4a98e71745e1c97ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1548359213797376775
+    second: Velo Shift xxx Yoyo_0
+  - first:
+      213: 9120891132925232433
+    second: Velo Shift xxx Yoyo_1
+  - first:
+      213: 1060524994586655095
+    second: Velo Shift xxx Yoyo_2
+  - first:
+      213: 4580364344490701004
+    second: Velo Shift xxx Yoyo_3
+  - first:
+      213: 486185614136007817
+    second: Velo Shift xxx Yoyo_4
+  - first:
+      213: 977787996498208617
+    second: Velo Shift xxx Yoyo_5
+  - first:
+      213: -6518532843949089025
+    second: Velo Shift xxx Yoyo_6
+  - first:
+      213: -5225451209427265122
+    second: Velo Shift xxx Yoyo_7
+  - first:
+      213: -2896429400932015015
+    second: Velo Shift xxx Yoyo_8
+  - first:
+      213: -2334727376513839892
+    second: Velo Shift xxx Yoyo_9
+  - first:
+      213: -6541073715169038229
+    second: Velo Shift xxx Yoyo_10
+  - first:
+      213: -5123808077855705599
+    second: Velo Shift xxx Yoyo_11
+  - first:
+      213: -3791632877870584587
+    second: Velo Shift xxx Yoyo_12
+  - first:
+      213: 8236255275021788337
+    second: Velo Shift xxx Yoyo_13
+  - first:
+      213: 8144771778602249416
+    second: Velo Shift xxx Yoyo_14
+  - first:
+      213: 7415756999530042852
+    second: Velo Shift xxx Yoyo_15
+  - first:
+      213: -9144391392924951771
+    second: Velo Shift xxx Yoyo_16
+  - first:
+      213: -8974816556615589251
+    second: Velo Shift xxx Yoyo_17
+  - first:
+      213: -3378962304938636661
+    second: Velo Shift xxx Yoyo_18
+  - first:
+      213: -7142398564860710597
+    second: Velo Shift xxx Yoyo_19
+  - first:
+      213: 2119235123252734587
+    second: Velo Shift xxx Yoyo_20
+  - first:
+      213: -706388743366419763
+    second: Velo Shift xxx Yoyo_21
+  - first:
+      213: -4130762291480679426
+    second: Velo Shift xxx Yoyo_22
+  - first:
+      213: -7043058707581849682
+    second: Velo Shift xxx Yoyo_23
+  - first:
+      213: -5469340610488826934
+    second: Velo Shift xxx Yoyo_24
+  - first:
+      213: 8226376494447090244
+    second: Velo Shift xxx Yoyo_25
+  - first:
+      213: -6596424781560450333
+    second: Velo Shift xxx Yoyo_26
+  - first:
+      213: -3929310436128977240
+    second: Velo Shift xxx Yoyo_27
+  - first:
+      213: -2454283608644076788
+    second: Velo Shift xxx Yoyo_28
+  - first:
+      213: 8513986345213337375
+    second: Velo Shift xxx Yoyo_29
+  - first:
+      213: -2480970818150790734
+    second: Velo Shift xxx Yoyo_30
+  - first:
+      213: -7350529124825301151
+    second: Velo Shift xxx Yoyo_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1679
+        width: 371
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703881b5080ec7510800000000000000
+      internalID: 1548359213797376775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1553
+        width: 302
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135c40d292ae39e70800000000000000
+      internalID: 9120891132925232433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1559
+        width: 431
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779b2c91dddb7be00800000000000000
+      internalID: 1060524994586655095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1559
+        width: 386
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0bb3f7a19b09f30800000000000000
+      internalID: 4580364344490701004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1550
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c5b797d374fb600800000000000000
+      internalID: 486185614136007817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_5
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1297
+        width: 136
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967aae4900dc19d00800000000000000
+      internalID: 977787996498208617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1300
+        width: 133
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe92b34ae48985a0800000000000000
+      internalID: -6518532843949089025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_7
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1300
+        width: 28
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99d3f68fc77b77b0800000000000000
+      internalID: -5225451209427265122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_8
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1300
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95423784ec0ddc7d0800000000000000
+      internalID: -2896429400932015015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_9
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1300
+        width: 136
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec438b22d1699fd0800000000000000
+      internalID: -2334727376513839892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1095
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6074b5bc107935a0800000000000000
+      internalID: -6541073715169038229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1095
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106322643b394e8b0800000000000000
+      internalID: -5123808077855705599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1093
+        width: 117
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fce4db8cf9616bc0800000000000000
+      internalID: -3791632877870584587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1095
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b46c1bf88e0d4270800000000000000
+      internalID: 8236255275021788337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1093
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cca630a7ca080170800000000000000
+      internalID: 8144771778602249416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_15
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1095
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5da9163bf0ae660800000000000000
+      internalID: 7415756999530042852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_16
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1095
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b91992a78981180800000000000000
+      internalID: -9144391392924951771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_17
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1093
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7222a274eb037380800000000000000
+      internalID: -8974816556615589251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_18
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1095
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a82b8afa38b11d0800000000000000
+      internalID: -3378962304938636661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_19
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1095
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b739e85a11ec90800000000000000
+      internalID: -7142398564860710597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 138
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aa20dcd19096d10800000000000000
+      internalID: 2119235123252734587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_21
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 138
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca5f463e276236f0800000000000000
+      internalID: -706388743366419763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 140
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb27b4e4959ca6c0800000000000000
+      internalID: -4130762291480679426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 140
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafac52db67024e90800000000000000
+      internalID: -7043058707581849682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_24
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 138
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3023c41bff814b0800000000000000
+      internalID: -5469340610488826934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_25
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 140
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a542426d5f92270800000000000000
+      internalID: 8226376494447090244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_26
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 140
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2718b4c9ac474a0800000000000000
+      internalID: -6596424781560450333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae0c4a0af84879c0800000000000000
+      internalID: -3929310436128977240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 21
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bb4b0bf02a0fdd0800000000000000
+      internalID: -2454283608644076788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 21
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f97f0d871c72670800000000000000
+      internalID: 8513986345213337375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_30
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 21
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b903068f22d19dd0800000000000000
+      internalID: -2480970818150790734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velo Shift xxx Yoyo_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 21
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fff9ba4bcadf990800000000000000
+      internalID: -7350529124825301151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Velo Shift xxx Yoyo_0: 1548359213797376775
+      Velo Shift xxx Yoyo_1: 9120891132925232433
+      Velo Shift xxx Yoyo_10: -6541073715169038229
+      Velo Shift xxx Yoyo_11: -5123808077855705599
+      Velo Shift xxx Yoyo_12: -3791632877870584587
+      Velo Shift xxx Yoyo_13: 8236255275021788337
+      Velo Shift xxx Yoyo_14: 8144771778602249416
+      Velo Shift xxx Yoyo_15: 7415756999530042852
+      Velo Shift xxx Yoyo_16: -9144391392924951771
+      Velo Shift xxx Yoyo_17: -8974816556615589251
+      Velo Shift xxx Yoyo_18: -3378962304938636661
+      Velo Shift xxx Yoyo_19: -7142398564860710597
+      Velo Shift xxx Yoyo_2: 1060524994586655095
+      Velo Shift xxx Yoyo_20: 2119235123252734587
+      Velo Shift xxx Yoyo_21: -706388743366419763
+      Velo Shift xxx Yoyo_22: -4130762291480679426
+      Velo Shift xxx Yoyo_23: -7043058707581849682
+      Velo Shift xxx Yoyo_24: -5469340610488826934
+      Velo Shift xxx Yoyo_25: 8226376494447090244
+      Velo Shift xxx Yoyo_26: -6596424781560450333
+      Velo Shift xxx Yoyo_27: -3929310436128977240
+      Velo Shift xxx Yoyo_28: -2454283608644076788
+      Velo Shift xxx Yoyo_29: 8513986345213337375
+      Velo Shift xxx Yoyo_3: 4580364344490701004
+      Velo Shift xxx Yoyo_30: -2480970818150790734
+      Velo Shift xxx Yoyo_31: -7350529124825301151
+      Velo Shift xxx Yoyo_4: 486185614136007817
+      Velo Shift xxx Yoyo_5: 977787996498208617
+      Velo Shift xxx Yoyo_6: -6518532843949089025
+      Velo Shift xxx Yoyo_7: -5225451209427265122
+      Velo Shift xxx Yoyo_8: -2896429400932015015
+      Velo Shift xxx Yoyo_9: -2334727376513839892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
